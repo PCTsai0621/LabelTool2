@@ -20,5 +20,7 @@ to load the labeling data from `LABEL_FILENAME.mat`. Double-click the labeling d
 - Choose "Load the existing file" as resource and press "start" button.
 - Select "LabelTool2/ProjectTest/MOMO_more/" as input folder.
 - Press "Load" and double-click the data in the list.
-- Check the checkbox if you want to see skeletonize label.
-The following picture shows the No.118 data.
+- Check the checkbox if you want to see skeletonize label.<br /><br />
+The following picture shows the No.118 data.<br />
+
+![alt tag](./show.png)

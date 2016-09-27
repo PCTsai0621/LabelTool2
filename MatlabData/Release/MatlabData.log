@@ -1,0 +1,31 @@
+﻿已經開始建置於 2016/1/10 下午 10:04:58。
+     1>節點 2 (Build 目標) 上的專案 "D:\VS2013Projects\ProjectTest\MatlabData\MatlabData.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp MatFileProcess.cpp
+         main.cpp
+         MatFileProcess.cpp
+     1>MatFileProcess.cpp(66): warning C4018: '<' : signed/unsigned 不相符
+     1>MatFileProcess.cpp(67): warning C4018: '<' : signed/unsigned 不相符
+     1>MatFileProcess.cpp(68): warning C4018: '<' : signed/unsigned 不相符
+     1>MatFileProcess.cpp(82): warning C4018: '<' : signed/unsigned 不相符
+     1>MatFileProcess.cpp(83): warning C4018: '<' : signed/unsigned 不相符
+     1>MatFileProcess.cpp(84): warning C4018: '<' : signed/unsigned 不相符
+     1>MatFileProcess.cpp(98): warning C4018: '<' : signed/unsigned 不相符
+     1>MatFileProcess.cpp(99): warning C4018: '<' : signed/unsigned 不相符
+     1>MatFileProcess.cpp(100): warning C4018: '<' : signed/unsigned 不相符
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\VS2013Projects\ProjectTest\Release\MatlabData.exe" /INCREMENTAL:NO /NOLOGO libeng.lib libmat.lib libmx.lib libmex.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\VS2013Projects\ProjectTest\Release\MatlabData.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\VS2013Projects\ProjectTest\Release\MatlabData.lib" /MACHINE:X86 /SAFESEH Release\main.obj
+         Release\MatFileProcess.obj
+     1>main.obj : error LNK2001: 無法解析的外部符號 "public: int __thiscall MatFileProcess::Print3DmxArray(char *,char const *)" (?Print3DmxArray@MatFileProcess@@QAEHPADPBD@Z)
+     1>MatFileProcess.obj : error LNK2001: 無法解析的外部符號 _mxGetClassID
+     1>MatFileProcess.obj : error LNK2001: 無法解析的外部符號 _mxGetNumberOfDimensions_730
+     1>MatFileProcess.obj : error LNK2001: 無法解析的外部符號 _mxGetData
+     1>MatFileProcess.obj : error LNK2001: 無法解析的外部符號 _matGetVariable
+     1>MatFileProcess.obj : error LNK2001: 無法解析的外部符號 _mxGetDimensions_730
+     1>MatFileProcess.obj : error LNK2001: 無法解析的外部符號 _matOpen
+     1>D:\VS2013Projects\ProjectTest\Release\MatlabData.exe : fatal error LNK1120: 7 個無法解析的外部符號
+     1>專案 "D:\VS2013Projects\ProjectTest\MatlabData\MatlabData.vcxproj" (Build 目標) 建置完成 -- 失敗。
+
+建置失敗。
+
+經過時間 00:00:01.38

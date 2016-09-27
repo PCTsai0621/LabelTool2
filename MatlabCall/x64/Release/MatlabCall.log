@@ -1,0 +1,18 @@
+﻿已經開始建置於 2016/1/18 下午 12:24:30。
+     1>節點 2 (Build 目標) 上的專案 "D:\VS2013Projects\ProjectTest\MatlabCall\MatlabCall.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt CallMatTest.cpp
+         CallMatTest.cpp
+     1>CallMatTest.cpp(138): warning C4267: '=' : 將 'size_t' 轉換為 'int'，資料可能遺失
+     1>CallMatTest.cpp(229): warning C4101: 'nDim' : 未參考的區域變數
+     1>CallMatTest.cpp(224): warning C4101: 'realPtr' : 未參考的區域變數
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\VS2013Projects\ProjectTest\x64\Release\MatlabCall.exe" /NOLOGO libeng.lib libmat.lib libmx.lib libmex.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\VS2013Projects\ProjectTest\x64\Release\MatlabCall.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\VS2013Projects\ProjectTest\x64\Release\MatlabCall.lib" /MACHINE:X64 x64\Release\CallMatTest.obj
+         正在產生程式碼
+         已完成程式碼產生
+         MatlabCall.vcxproj -> D:\VS2013Projects\ProjectTest\x64\Release\MatlabCall.exe
+     1>專案 "D:\VS2013Projects\ProjectTest\MatlabCall\MatlabCall.vcxproj" (Build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:01.30

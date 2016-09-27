@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProjectTest", "ProjectTest\ProjectTest.vcxproj", "{049C76A3-EF62-4B24-A87A-579E49A85C35}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MatlabCall", "MatlabCall\MatlabCall.vcxproj", "{78A4820A-2080-402C-B14F-1EB1D04D042E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test\test.vcxproj", "{1D49C36E-CE9E-4A9D-94CA-366B6A356698}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MatlabData", "MatlabData\MatlabData.vcxproj", "{1300CFCA-73EE-4ABB-B16C-7A4C41675599}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{049C76A3-EF62-4B24-A87A-579E49A85C35}.Debug|Win32.ActiveCfg = Debug|x64
+		{049C76A3-EF62-4B24-A87A-579E49A85C35}.Release|Win32.ActiveCfg = Debug|x64
+		{049C76A3-EF62-4B24-A87A-579E49A85C35}.Release|Win32.Build.0 = Debug|x64
+		{78A4820A-2080-402C-B14F-1EB1D04D042E}.Debug|Win32.ActiveCfg = Release|x64
+		{78A4820A-2080-402C-B14F-1EB1D04D042E}.Debug|Win32.Build.0 = Release|x64
+		{78A4820A-2080-402C-B14F-1EB1D04D042E}.Release|Win32.ActiveCfg = Release|x64
+		{1D49C36E-CE9E-4A9D-94CA-366B6A356698}.Debug|Win32.ActiveCfg = Release|Win32
+		{1D49C36E-CE9E-4A9D-94CA-366B6A356698}.Release|Win32.ActiveCfg = Release|Win32
+		{1300CFCA-73EE-4ABB-B16C-7A4C41675599}.Debug|Win32.ActiveCfg = Release|x64
+		{1300CFCA-73EE-4ABB-B16C-7A4C41675599}.Release|Win32.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
